@@ -36,7 +36,7 @@ public class EmailServiceBean implements EmailService {
         } catch (Exception e) {
             // do nothing
         }
-        logger.info("Processing time was {} seconds.", pause / 1000);
+        logger.info("Procesing time was {} seconds.", pause / 1000);
 
         success = Boolean.TRUE;
 
