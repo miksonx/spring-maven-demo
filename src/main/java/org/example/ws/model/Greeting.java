@@ -19,7 +19,7 @@ public class Greeting extends TransactionalEntity {
     }
 
     public String getText() {
-        return text +"Something";
+        return text;
     }
 
     public void setText(String text) {
