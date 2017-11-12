@@ -23,7 +23,7 @@ public class Greeting extends TransactionalEntity {
     }
 
     public void setText(String text) {
-        this.text = text;
+        this.text = text +"Something";
     }
 
 }
