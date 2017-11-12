@@ -69,7 +69,7 @@ public class EmailServiceBean implements EmailService {
             Boolean success = send(greeting);
             response.complete(success);
         } catch (Exception e) {
-            logger.warn("Exception caught sending asynchronous mail.", e);
+            logger.warn("Exception caught sending asynchronous email.", e);
             response.completeExceptionally(e);
         }
 
