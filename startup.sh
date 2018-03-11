@@ -15,7 +15,7 @@ start ()
         echo ""
         printf "$(date +%Y%m%d-%H:%M:%S) Spring data is starting..."
         #cd /app/mservice/CBTK_new
-        nohup java -jar /var/lib/jenkins/workspace/example-maven-project/target/spring-data-fundamentals-1.0.0-SNAPSHOT.jar > /dev/null 2>&1 &
+        nohup java -jar /tmp/spring-data-fundamentals-1.0.0-SNAPSHOT.jar > /dev/null 2>&1 &
 
     fi
 
