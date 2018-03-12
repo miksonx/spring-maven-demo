@@ -4,8 +4,6 @@ files:
   - source: spring-data-fundamentals-1.0.0-SNAPSHOT.jar
     destination: /tmp
 hooks:
-  BeforeInstall:
-    - location: startup.sh stop
   AfterInstall:
     - location: startup.sh start
       timeout: 180
